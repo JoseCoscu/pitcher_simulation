@@ -11,27 +11,26 @@ from scipy import *
 asctime()
 
 # introducimos los datos
-# while True:
-#     try:
-#         β = float(input("introduzca el ángulo en grados β = "))
-#     except ValueError:
-#         print()
-#         print("Cantidad Incorrecta")
-#         print()
-#         continue
-#     break
-# while True:
-#     try:
-#         vi = float(input("introduzca la velocidad inicial en (m/s) vi = "))
-#
-#     except ValueError:
-#         print()
-#         print("Cantidad Incorrecta")
-#         print()
-#         continue
-#     break
-β=float(20)
-vi=float(10)
+while True:
+    try:
+        β = float(input("introduzca el ángulo en grados β = "))
+    except ValueError:
+        print()
+        print("Cantidad Incorrecta")
+        print()
+        continue
+    break
+while True:
+    try:
+        vi = float(input("introduzca la velocidad inicial en (m/s) vi = "))
+
+    except ValueError:
+        print()
+        print("Cantidad Incorrecta")
+        print()
+        continue
+    break
+
 print()
 r= float((β * pi) / 180)
 print("θ=", r)
